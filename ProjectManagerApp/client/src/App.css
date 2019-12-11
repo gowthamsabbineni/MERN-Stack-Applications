@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  .appHeader {
+    background-color: #303996;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+  }
+  
+.signin-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top:10% 
+  }
+  
+  .signin-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+
+  .auth-wrapper .form-control:focus {
+    border-color: #303996;
+    box-shadow: none;
+  }
+  
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .container{
+    padding:10px
+  }
+  .card{
+    width:32%;
+    float:left;
+    margin-right:10px;
+  }
+  .datepickerlabel{
+    width:100%;
+  }
+
+  .card-body-left{
+    float:left
+  }
+
+  .card-body-right{
+    float:right;
+    text-align:right
+  }
+  .card-actions{
+    text-align: right;
+    margin-right:auto;
+  }
+  .card:hover{
+    border-color: #303996;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .btn-primary{
+    border-color:#303996;
+    background-color: #303996;
+  }
+  .bg-dark{
+    background-color: #303996 !important;
+  }
+  .card-header{
+    border-top-color: #303996;
+    border-top-width: 2px;
+    border-top-style: solid;
+  }
+  label{
+    font-weight: 500;
+  }
+  .buttonrow{
+    text-align:right;
+  }
+  .buttonrow button{
+    margin-left:3px
+  }
+  .welcometxt{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 500px;
+  }
+  .center{
+    text-align:center;
+  }
+  .childdiv{
+    width: 47%;
+    float: left;
+    height: 320px;
+    padding:10px;
+    margin:10px 10px;
+    text-align: center;
+    box-shadow: 0.1px 0.1px 4px;
+  }
+  .dashboardcomptitle{
+    color:#5a5a5a;
+    font-weight:bold;
+    font-family:"Source Sans Pro";
+    font-size:18px
+  }
+  .dashboardrowdiv{
+    margin:2px 125px;
+  }
+  .table{
+    text-align: left;
+  }
